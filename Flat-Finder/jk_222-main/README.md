@@ -1,3 +1,7 @@
+# This is my group, (Jk_222)'s, Final Project from Com S 309.  It features full stack app development practices. <br>
+# Back-End: Sullivan Fair (me), Tyler Vick <br>
+# Front-End: Carter Parks, Brandon Merrick
+
 # JK_222
 
 
