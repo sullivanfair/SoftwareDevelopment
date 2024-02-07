@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewApplicants">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/backToHome"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="right"
+                android:text="Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+
+                android:layout_gravity="left"
+                android:id="@+id/Tenants"
+                android:layout_marginTop="-30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Applicants" />
+
+            <EditText
+                android:id="@+id/searchEditText"
+                android:layout_gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Search"
+                android:inputType="text"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="96dp"/>
+
+
+            <include
+                android:id="@+id/applicantLayout1"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout2"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout3"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout4"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout5"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout6"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout7"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout8"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout9"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout10"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout11"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout12"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout3"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout14"
+                layout="@layout/applicant" />
+            <include
+                android:id="@+id/applicantLayout15"
+                layout="@layout/applicant" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Experiments.iml" filepath="$PROJECT_DIR$/.idea/Experiments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sffair_Experiments/sffair_Experiment2/sffair_Experiment2/src/main/main.iml" filepath="$PROJECT_DIR$/sffair_Experiments/sffair_Experiment2/sffair_Experiment2/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sffair_Experiments/sffair_Experiment1/sffair_Experiment1.iml" filepath="$PROJECT_DIR$/sffair_Experiments/sffair_Experiment1/sffair_Experiment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sffair_Experiments/sffair_Experiment2/sffair_Experiment2/src/test/test.iml" filepath="$PROJECT_DIR$/sffair_Experiments/sffair_Experiment2/sffair_Experiment2/src/test/test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<table style="width: 100%">
+    <tr>
+        <td>
+            <input type="text" id="wsserver" style="width: 15rem;" placeholder="ws://localhost:8080/chat/" value="ws://localhost:8080/chat/" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" id="chatRoom" style="width:100%;" placeholder="Chat Room" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" id="username" style="width:100%;" placeholder="Username" />
+            <button type="button" onclick="connect();">Connect</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="log">Chat Log:</label>
+            <textarea readonly rows="10" cols="80" id="log"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" size="51" id="msg" placeholder="Message" />
+            <button type="button" onclick="send();">Send</button>
+        </td>
+    </tr>
+</table>
+<script src="websocket.js"></script>
+</body>
+
+</html>

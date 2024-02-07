@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listing"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- Text field -->
+    <TextView
+        android:id="@+id/ApplicantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Applicant" />
+
+    <Button
+        android:id="@+id/AppDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:layout_below="@+id/ApplicantName"/>
+
+
+    <Button
+        android:id="@+id/chatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:layout_alignParentRight = "true"
+        android:layout_centerVertical = "true"
+        />
+
+    <TextView
+        android:id="@+id/appliedListing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Listing Name"
+        android:layout_toLeftOf="@+id/chatBtn"
+        android:layout_below="@+id/ApplicantName" />
+
+
+</RelativeLayout>

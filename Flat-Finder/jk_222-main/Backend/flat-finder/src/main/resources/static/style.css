@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    background-color: #1f1f1f;
+    color: #d9d9d9;
+}
+
+table {
+    width: 960px;
+    margin: auto;
+    text-align: left;
+}
+
+button {
+    display: inline;
+    color: #fff;
+    background-color: #f2791d;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #ffb15e;
+}
+
+button a,
+a:visited,
+a:hover,
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+textarea {
+    width: 100%;
+}

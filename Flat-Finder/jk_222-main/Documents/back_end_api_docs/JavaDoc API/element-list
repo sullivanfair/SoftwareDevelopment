@@ -1,0 +1,12 @@
+edu.iastate.coms309.flatfinder
+edu.iastate.coms309.flatfinder.chat
+edu.iastate.coms309.flatfinder.history
+edu.iastate.coms309.flatfinder.images
+edu.iastate.coms309.flatfinder.listing
+edu.iastate.coms309.flatfinder.matches
+edu.iastate.coms309.flatfinder.notifications
+edu.iastate.coms309.flatfinder.reviews
+edu.iastate.coms309.flatfinder.users.admin
+edu.iastate.coms309.flatfinder.users.landlord
+edu.iastate.coms309.flatfinder.users.tenant
+edu.iastate.coms309.flatfinder.users.user

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TopListings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/backHome"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="right"
+                android:text="Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+
+                android:layout_gravity="left"
+                android:id="@+id/Recommended"
+                android:layout_marginTop="-30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Recommended Listings" />
+
+            <EditText
+                android:id="@+id/searchEditText"
+                android:layout_gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Search"
+                android:inputType="text"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="96dp"/>
+
+
+            <include
+                android:id="@+id/listingLayout1"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout2"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout3"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout4"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout5"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout6"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout7"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout8"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout9"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout10"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout11"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout12"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout13"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout14"
+                layout="@layout/listing" />
+            <include
+                android:id="@+id/listingLayout15"
+                layout="@layout/listing" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
